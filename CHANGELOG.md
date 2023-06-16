@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.5
+## [1.0.5](https://github.com/xlist-io/xlist/releases/tag/1.0.5) - 2023-06-15
 
 - 支持视频播放列表
 - 修复若干性能问题
