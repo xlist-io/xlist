@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.6](https://github.com/xlist-io/xlist/releases/tag/1.0.6) - 2023-06-18
+
+- pad 模式适配
+- 修复视频播放屏幕旋转问题
+- 修复播放列表无法切换音轨/字幕
+
 ## [1.0.5](https://github.com/xlist-io/xlist/releases/tag/1.0.5) - 2023-06-15
 
 - 支持视频播放列表
