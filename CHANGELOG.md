@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/xlist-io/xlist/releases/tag/1.0.7) - 2023-06-22
+
+- 视频播放全屏模式下支持字幕/音轨切换
+- 修复 token 过期无法访问题
+- 优化 pad 模式下视频播放界面
+- 优化视频播放超时错误页面
+
 ## [1.0.6](https://github.com/xlist-io/xlist/releases/tag/1.0.6) - 2023-06-18
 
 - pad 模式适配
