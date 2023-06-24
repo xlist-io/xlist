@@ -2,6 +2,7 @@
 
 ## [1.0.7](https://github.com/xlist-io/xlist/releases/tag/1.0.7) - 2023-06-23
 
+- 添加硬件解码开关
 - 视频播放全屏模式下支持字幕/音轨切换
 - 修复 token 过期无法访问题
 - 优化 pad 模式下视频播放界面
