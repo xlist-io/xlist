@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.8](https://github.com/xlist-io/xlist/releases/tag/1.0.8) - 2023-06-29
+
+- 支持列表和网格视图切换
+- 优化 pad 模式下页面展示
+
 ## [1.0.7](https://github.com/xlist-io/xlist/releases/tag/1.0.7) - 2023-06-23
 
 - 添加硬件解码开关
