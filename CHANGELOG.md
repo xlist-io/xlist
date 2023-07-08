@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.9](https://github.com/xlist-io/xlist/releases/tag/1.0.9) - 2023-07-07
+
+- 添加通知栏播放控制器
+- 删除播放音频时屏幕常量
+- 修复视频切换预览图问题
+
 ## [1.0.8](https://github.com/xlist-io/xlist/releases/tag/1.0.8) - 2023-06-29
 
 - 支持列表和网格视图切换
