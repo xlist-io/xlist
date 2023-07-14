@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.10](https://github.com/xlist-io/xlist/releases/tag/1.0.10) - 2023-07-13
+
+- 优化音视频流展示信息
+- 优化页面交互问题
+
 ## [1.0.9](https://github.com/xlist-io/xlist/releases/tag/1.0.9) - 2023-07-07
 
 - 添加通知栏播放控制器
