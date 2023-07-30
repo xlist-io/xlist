@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.11](https://github.com/xlist-io/xlist/releases/tag/1.0.11) - 2023-07-30
+
+- 优化视频播放器重试策略
+- 修复若干问题和性能优化
+
 ## [1.0.10](https://github.com/xlist-io/xlist/releases/tag/1.0.10) - 2023-07-13
 
 - 优化音视频流展示信息
