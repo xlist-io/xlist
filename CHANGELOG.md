@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.12](https://github.com/xlist-io/xlist/releases/tag/1.0.12) - 2023-08-07
+
+- 音频记录当前播放进度
+- 修改内置字幕/音轨显示名称
+- 添加服务台添加提示文案
+
 ## [1.0.11](https://github.com/xlist-io/xlist/releases/tag/1.0.11) - 2023-07-30
 
 - 优化视频播放器重试策略
