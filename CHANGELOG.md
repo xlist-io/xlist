@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.13](https://github.com/xlist-io/xlist/releases/tag/1.0.13) - 2023-08-23
+
+- 修复 https 请求证书认证问题
+- 列表页允许最多两行内容显示
+
 ## [1.0.12](https://github.com/xlist-io/xlist/releases/tag/1.0.12) - 2023-08-07
 
 - 音频记录当前播放进度
