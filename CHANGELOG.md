@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.14](https://github.com/xlist-io/xlist/releases/tag/1.0.14) - 2023-09-08
+
+- 全新设计的音频播放页面
+- 修复若干问题和性能优化
+
 ## [1.0.13](https://github.com/xlist-io/xlist/releases/tag/1.0.13) - 2023-08-23
 
 - 修复 https 请求证书认证问题
