@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.16](https://github.com/xlist-io/xlist/releases/tag/1.0.16) - 2023-09-27
+
+- 修复长按倍速问题
+- 修复复制链接丢失签名参数
+
 ## [1.0.15](https://github.com/xlist-io/xlist/releases/tag/1.0.15) - 2023-09-21
 
 - 优化图片浏览器界面
