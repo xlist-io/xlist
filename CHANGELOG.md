@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.17](https://github.com/xlist-io/xlist/releases/tag/1.0.17) - 2023-10-25
+
+- 修复安卓复制链接错误
+- 安卓新增面包多支付渠道
+
 ## [1.0.16](https://github.com/xlist-io/xlist/releases/tag/1.0.16) - 2023-09-27
 
 - 修复长按倍速问题
