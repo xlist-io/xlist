@@ -14,7 +14,6 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:xlist/gen/index.dart';
 import 'package:xlist/helper/index.dart';
 import 'package:xlist/common/index.dart';
-import 'package:xlist/storages/index.dart';
 import 'package:xlist/pages/video_player/index.dart';
 import 'package:xlist/components/fijkplayer/default_panel.dart';
 

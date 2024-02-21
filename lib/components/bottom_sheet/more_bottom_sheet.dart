@@ -6,7 +6,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:xlist/common/index.dart';
 import 'package:xlist/helper/index.dart';
 import 'package:xlist/models/index.dart';
-import 'package:xlist/storages/index.dart';
 import 'package:xlist/constants/index.dart';
 import 'package:xlist/routes/app_pages.dart';
 
