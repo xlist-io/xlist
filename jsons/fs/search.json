@@ -1,0 +1,10 @@
+{
+  "@meta": {
+    "className": "FsSearchModel"
+  },
+  "@JsonKey(name: 'name') String?": "name",
+  "@JsonKey(name: 'parent') String?": "parent",
+  "@JsonKey(name: 'is_dir') bool?": "isDir",
+  "@JsonKey(name: 'type') int?": "type",
+  "@JsonKey(name: 'size') int?": "size"
+}

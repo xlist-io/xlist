@@ -1,0 +1,13 @@
+{
+  "@meta": {
+    "className": "UserModel"
+  },
+  "@JsonKey(name: 'id') int?": "id",
+  "@JsonKey(name: 'username') String?": "username",
+  "@JsonKey(name: 'password') String?": "password",
+  "@JsonKey(name: 'base_path') String?": "basePath",
+  "@JsonKey(name: 'role') int?": "role",
+  "@JsonKey(name: 'permission') int?": "permission",
+  "@JsonKey(name: 'sso_id') String?": "sso_id",
+  "@JsonKey(name: 'disabled') bool?": "disabled"
+}

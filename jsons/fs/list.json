@@ -1,0 +1,13 @@
+{
+  "@meta": {
+    "className": "FsListModel",
+    "import": [
+      "../object.dart"
+    ]
+  },
+  "@JsonKey(name: 'content') List<ObjectModel>?": "content",
+  "@JsonKey(name: 'total') int?": "total",
+  "@JsonKey(name: 'readme') String?": "readme",
+  "@JsonKey(name: 'write') bool?": "write",
+  "@JsonKey(name: 'provider') String?": "provider"
+}

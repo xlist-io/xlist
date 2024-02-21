@@ -1,0 +1,107 @@
+name: xlist
+description: Xlist project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+  flutter: '>=1.12.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+  fijkplayer:
+    path: packages/fijkplayer
+
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  dio: ^5.0.1
+  path: ^1.8.2
+  floor: ^1.4.2
+  jiffy: ^6.1.0
+  crypto: ^3.0.3
+  encrypt: ^5.0.3
+  keframe: ^3.0.0
+  charset: ^2.0.1
+  wakelock: ^0.6.2
+  audio_wave: ^0.1.5
+  share_plus: ^6.3.4
+  photo_view: ^0.14.0
+  file_picker: ^5.2.10
+  url_launcher: ^6.1.11
+  image_picker: ^0.8.7+4
+  easy_refresh: ^3.3.1+2
+  toggle_switch: ^2.1.0
+  vivysub_utils: ^0.2.0
+  path_provider: ^2.0.15
+  in_app_review: ^2.0.6
+  audio_service: ^0.18.10
+  code_text_field: ^1.1.0
+  adaptive_dialog: ^1.9.0-0
+  dismissible_page: ^1.0.1
+  pull_down_button: ^0.9.1
+  device_info_plus: ^8.2.2
+  flex_color_scheme: ^7.3.1
+  package_info_plus: ^3.0.3
+  permission_handler: ^10.2.0
+  modal_bottom_sheet: ^3.0.0-pre
+  image_gallery_saver: ^2.0.3
+  font_awesome_flutter: ^10.4.0
+  cached_network_image: ^3.2.3
+  subtitle_wrapper_package: ^2.1.1
+  infinite_scroll_pagination: ^3.2.0
+  syncfusion_flutter_pdfviewer: ^21.2.4
+  flutter_svg: ^2.0.5
+  flutter_phoenix: ^1.1.0
+  flutter_slidable: ^3.0.0
+  flutter_screenutil: ^5.6.0
+  flutter_downloader: ^1.10.2
+  flutter_smart_dialog: ^4.7.1
+  flutter_inappwebview: ^5.7.2+3
+  flutter_native_splash: ^2.2.19
+  flutter_keyboard_visibility: ^5.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_gen: ^5.2.0
+  flutter_lints: ^2.0.0
+  floor_generator: ^1.4.2
+  flutter_launcher_icons: ^0.13.1
+  change_app_package_name: ^1.1.0
+  build_runner: ^2.3.3
+  json_model: ^1.0.0
+  json_serializable: ^6.5.4
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#121212"
+  image: assets/common/logo-transparent.png
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#121212"
+    image: assets/common/logo-transparent.png
+
+flutter_app_name:
+  name: "Xlist"
+
+flutter_gen:
+  output: lib/gen/
+  line_length: 80
+
+flutter_icons:
+  web:
+    generate: true
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/common/logo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/common/
+    - assets/images/

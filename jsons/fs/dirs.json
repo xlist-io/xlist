@@ -1,0 +1,7 @@
+{
+  "@meta": {
+    "className": "FsDirsModel"
+  },
+  "@JsonKey(name: 'name') String?": "name",
+  "@JsonKey(name: 'modified') DateTime?": "modified"
+}
