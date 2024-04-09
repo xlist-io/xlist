@@ -100,6 +100,7 @@ const ThemeModeTextMap = {
 class Provider {
   static const String ALIYUN_DRIVE = 'Aliyundrive';
   static const String BAIDU = 'Baidu';
+  static const String Cloud115 = '115';
 }
 
 class IjkPlayerTrackType {

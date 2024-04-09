@@ -5,7 +5,7 @@ import 'package:dio/dio.dart';
 import 'package:get/get.dart' show Get, GetxService;
 import 'package:get/get_instance/src/extension_instance.dart';
 
-import 'package:xlist/common/index.dart';
+import 'package:xlist/helper/index.dart';
 import 'package:xlist/storages/index.dart';
 
 // Dio
@@ -46,7 +46,7 @@ class DioService extends GetxService {
 
     // Interceptor
     _dio.interceptors.add(DioInterceptors());
-    defaultHeaders = await CommonUtils.getHttpHeaders();
+    defaultHeaders = DriverHelper.getHeaders(null, null);
     return this;
   }
 }

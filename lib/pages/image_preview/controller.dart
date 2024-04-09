@@ -13,6 +13,7 @@ import 'package:xlist/helper/index.dart';
 import 'package:xlist/models/index.dart';
 import 'package:xlist/services/index.dart';
 import 'package:xlist/storages/index.dart';
+import 'package:xlist/constants/index.dart';
 import 'package:xlist/repositorys/index.dart';
 
 class ImagePreviewController extends GetxController {
@@ -43,19 +44,27 @@ class ImagePreviewController extends GetxController {
     currentIndex.value = objects.indexWhere((e) => e.name == name);
     pageController = PageController(initialPage: currentIndex.value);
 
-    // 获取图片列表
-    imageUrls.value = objects.map((o) {
-      return CommonUtils.getDownloadLink(
-        path,
-        object: o,
-        userInfo: userInfo.value,
-      );
-    }).toList();
-
     // 获取头信息
     final object = await ObjectRepository.get(path: '${path}${name}');
     imageHeaders.value =
         await DriverHelper.getHeaders(object.provider, object.rawUrl);
+
+    // 获取图片链接, 115 hack
+    if (object.provider!.startsWith(Provider.Cloud115)) {
+      for (var i = 0; i < objects.length; i++) {
+        final _response =
+            await ObjectRepository.get(path: '${path}${objects[i].name}');
+        imageUrls.add(_response.rawUrl!);
+      }
+    } else {
+      imageUrls.value = objects.map((o) {
+        return CommonUtils.getDownloadLink(
+          path,
+          object: o,
+          userInfo: userInfo.value,
+        );
+      }).toList();
+    }
 
     // 加入最近浏览
     await CommonUtils.addRecent(object, path, name);

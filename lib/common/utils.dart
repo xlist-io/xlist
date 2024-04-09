@@ -1,4 +1,3 @@
-import 'dart:io';
 import 'dart:ui';
 import 'dart:math';
 
@@ -7,7 +6,6 @@ import 'package:path/path.dart' as p;
 import 'package:flutter/services.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:vivysub_utils/vivysub_utils.dart';
-import 'package:package_info_plus/package_info_plus.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_smart_dialog/flutter_smart_dialog.dart';
 import 'package:subtitle_wrapper_package/data/models/subtitle.dart';
@@ -20,17 +18,6 @@ import 'package:xlist/database/entity/index.dart';
 
 // 公共工具类
 class CommonUtils {
-  /// 获取公共头信息
-  static Future<Map<String, String>> getHttpHeaders() async {
-    final packageInfo = await PackageInfo.fromPlatform();
-    return {
-      HttpHeaders.userAgentHeader:
-          '${GetPlatform.isAndroid ? 'Android' : 'Iphone'}/${packageInfo.version} (Xlist.io)',
-      'x-user-id': Get.find<UserStorage>().id.val,
-      'x-platform': GetPlatform.isAndroid ? 'android' : 'ios',
-    };
-  }
-
   /// 格式化文件大小
   /// [size] 文件大小
   static String formatFileSize(int size) {
